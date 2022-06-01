@@ -16,7 +16,7 @@ router.get('/home', function(req: express.Request, res: express.Response, next: 
 /* Display about page. */
 router.get('/about', function(req: express.Request, res: express.Response, next: express.NextFunction) 
 {
-  res.render('index', { title: 'About Us', page: 'about' });
+  res.render('index', { title: 'About Me', page: 'about' });
 });
 
 /* Display projects page. */
@@ -34,7 +34,7 @@ router.get('/services', function(req: express.Request, res: express.Response, ne
 /* Display contact page. */
 router.get('/contact', function(req: express.Request, res: express.Response, next: express.NextFunction) 
 {
-  res.render('index', { title: 'Contact Us', page: 'contact' });
+  res.render('contact', { title: 'Contact Us', page: 'contact' });
 });
 
 export default router;
