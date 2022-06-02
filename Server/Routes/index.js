@@ -24,16 +24,16 @@ router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About Me', page: 'about' });
+    res.render('index', { title: 'About Us', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'My Projects', page: 'projects' });
+    res.render('index', { title: 'Our Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('index', { title: 'My Services', page: 'services' });
+    res.render('index', { title: 'Our Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('contact', { title: 'Contact Me', page: 'contact' });
+    res.render('contact', { title: 'Contact Us', page: 'contact' });
 });
 exports.default = router;
 //# sourceMappingURL=index.js.map
