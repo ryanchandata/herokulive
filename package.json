@@ -1,9 +1,9 @@
 {
-  "name": "comp229-m2022-week4",
-  "version": "0.0.3",
-  "description": "Demo Project for COMP229 in the Summer 2022 semester for Week 4",
+  "name": "PoFaiChan-comp229-Assignment1",
+  "version": "0.0.1",
+  "description": "Project for COMP229 in the Summer 2022 semester Assignment 1",
   "main": "server.js",
-  "author": "Tom Tsiliopoulos",
+  "author": "Ryan Chan",
   "license": "MIT",
   "private": true,
   "scripts": {
